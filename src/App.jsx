@@ -1,8 +1,9 @@
 import React from "react";
-import Login from "./components/Login.jsx";
+import "./App.css"
+import StudentInformation from "./components/StudentInformation";
 
 function App() {
-  return <Login />;
+  return <StudentInformation />;
 }
 
 export default App;
